@@ -1,0 +1,5 @@
+modules/mozart_module_vr.c.o: In function `process_vr_asr_callback':
+/group1/home/ylguo/wifi-audio/repo-x1000/mozart/src/main/modules/mozart_module_vr.c:191: undefined reference to `speech_cloudmusic_playfm'
+/group1/home/ylguo/wifi-audio/repo-x1000/mozart/src/main/modules/mozart_module_vr.c:172: undefined reference to `speech_cloudmusic_playmusic'
+/group1/home/ylguo/wifi-audio/repo-x1000/mozart/output/mozart/app/usr/lib/libvr.so: undefined reference to `aiengine_echo'
+collect2: error: ld returned 1 exit status
